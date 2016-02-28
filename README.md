@@ -71,6 +71,11 @@ var highlightedResult = highlighter.highlight(code, ast);
 console.log(highlightedResult);
 ```
 
+See also
+--------
+
+- Thanks to [Falafel](https://github.com/substack/node-falafel) for this approach of transforming (JS) code with an AST.
+
 Keeping up to date
 ------------------
 - [Follow me on Twitter](https://twitter.com/@asmblah) for updates: [https://twitter.com/@asmblah](https://twitter.com/@asmblah)

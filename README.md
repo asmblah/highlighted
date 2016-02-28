@@ -68,7 +68,8 @@ var ast = parser.parse(code);
 
 var highlightedResult = highlighter.highlight(code, ast);
 
-console.log(highlightedResult);```
+console.log(highlightedResult);
+```
 
 Keeping up to date
 ------------------

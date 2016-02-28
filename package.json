@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "name": "highlighted",
+  "description": "Text transformation helper",
+  "keywords": [
+    "ast",
+    "transform",
+    "highlight"
+  ],
+  "homepage": "https://github.com/asmblah/highlighted",
+  "author": "Dan Phillimore <dan@ovms.co> (http://ovms.co)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asmblah/highlighted"
+  },
+  "bugs": {
+    "email": "dan@ovms.co",
+    "url": "https://github.com/asmblah/highlighted/issues"
+  },
+  "main": "index",
+  "scripts": {
+    "jshint": "jshint .",
+    "mocha": "mocha -r test/harness --recursive test/",
+    "test": "npm run jshint && npm run mocha"
+  },
+  "dependencies": {
+    "microdash": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4",
+    "sinon-chai": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=0.6"
+  },
+  "license": "MIT"
+}

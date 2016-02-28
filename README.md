@@ -8,7 +8,7 @@ A helper for transforming text with an AST, eg. when building syntax highlighter
 Usage
 -----
 
-See [the tests](https://github.com/asmblah/tree/master/test) for examples.
+See [the tests](https://github.com/asmblah/highlighted/tree/master/test) for examples.
 
 Keeping up to date
 ------------------
